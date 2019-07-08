@@ -11,3 +11,4 @@ In the repository directory, i.e. 'C:/dev/travis_ci_test".
 	cd build
 	cmake ../ -G"MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND"
 	mingw32-make
+
