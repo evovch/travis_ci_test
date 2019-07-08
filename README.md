@@ -1,14 +1,13 @@
 # travis_ci_test
 
-build
+[![Build Status](https://travis-ci.com/evovch/travis_ci_test.svg?branch=master)](https://travis-ci.com/evovch/travis_ci_test)
+
+Build
 -----
 
-In your working directory, i.e. 'C:/dev/", where travis_ci_test repository is located.
+In the repository directory, i.e. 'C:/dev/travis_ci_test".
 
-> mkdir travis_ci_test_build
-
-> cd travis_ci_test_build
-
-> cmake ../travis_ci_test -G"MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND"
-
-> mingw32-make.exe
+	mkdir build
+	cd build
+	cmake ../ -G"MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND"
+	mingw32-make
